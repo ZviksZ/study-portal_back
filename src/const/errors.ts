@@ -1,0 +1,18 @@
+export enum ERROR_MESSAGES {
+  INVALID_PARAM = 'Invalid parameter',
+  NO_PERMISSION = 'No permission',
+  NO_AUTHORIZE = 'You are not authorized',
+  AUTHORIZATION_FAIL = 'Authorization failed',
+  REGISTER_FAIL = 'Register request was failed',
+  LOGIN_FAIL = 'Login request was failed',
+  USER_NO_FOUND = 'User no found',
+  POST_NO_FOUND = 'Post no found',
+  POSTS_LOAD_ERROR = 'Posts loading error',
+  POSTS_ADD_ERROR = 'Adding post failed',
+  POSTS_REMOVE_ERROR = 'Removing post failed',
+  POSTS_UPDATE_ERROR = 'Updating post failed',
+  COMMENTS_LOAD_ERROR = 'Comments loading error',
+  COMMENT_ADD_ERROR = 'Adding comment failed',
+  COMMENT_REMOVE_ERROR = 'Removing comment failed',
+  COMMENT_UPDATE_ERROR = 'Updating comment failed',
+}
