@@ -14,7 +14,7 @@ import { JwtAuthGuard } from './guards/jwt-auth.guard';
       envFilePath: `.${process.env.NODE_ENV}.env`,
     }),
     MongooseModule.forRoot(
-      process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/nestjs-training',
+      process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/dev-study-portal',
       {
         useNewUrlParser: true,
         useFindAndModify: false,
